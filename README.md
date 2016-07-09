@@ -1,6 +1,6 @@
 # MouseRobotProject
 tutorial of how to make light tracking robot
-![alt text](MouseRobot.jpg)
+![alt text](MouseRobot.JPG)
 
 ##Example
 https://youtu.be/eWR0JLNSg-g
