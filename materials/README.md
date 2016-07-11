@@ -21,10 +21,12 @@ List of materials needed to make the robot
 
 ##LR44 1.5V Coin Battery x2
 Does not necessary have to be LR44 but something that produce 3V.
+
 ![alt text](/materials/coinbattery.jpg)
 
 ##MPD BH1/3N-C CR1 Battery Box
 Battery box for LR44 coin battery. Can vary depending on the coin battery.
+
 ![alt text](/materials/batteryholder.jpg)
 
 ##K2232 N-ch FET x2
@@ -46,7 +48,7 @@ Anything is fine
 Not necessary but recommended to have to make different effects on the robot
 
 ##Inverter IC
-![alt text](/materials/invterter.jpg)
+![alt text](/materials/inverter.jpg)
 
 ##AND IC
 ![alt text](/materials/AND.jpg)
