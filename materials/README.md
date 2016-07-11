@@ -30,7 +30,7 @@ Battery box for LR44 coin battery. Can vary depending on the coin battery.
 ![alt text](/materials/batteryholder.jpg)
 
 ##K2232 N-ch FET x2
-![alt text](/materials/fet.jpg)
+![alt text](/materials/fet.JPG)
 
 ##1kΩ Reesistor x2
 ![alt text](/materials/resistor.jpg)
