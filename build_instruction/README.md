@@ -16,7 +16,7 @@
 <img src="/build_instruction/IMG_0921.JPG" width="200">
 
 5. Design the circuit
+
 <img src="/build_instruction/IMG_0922.JPG" width="200">
 <img src="/build_instruction/IMG_0923.JPG" width="200">
-
 <img src="/build_instruction/NOT_pull_down.png" width="200">
