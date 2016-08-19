@@ -8,6 +8,7 @@ https://youtu.be/eWR0JLNSg-g
 https://youtu.be/5WNjF-kcHEA
 
 ##Contents
+* build instructions
 * circuit
 * jumperwires
 * materials
