@@ -6,3 +6,8 @@ tutorial of how to make light tracking robot
 https://youtu.be/eWR0JLNSg-g
 
 https://youtu.be/5WNjF-kcHEA
+
+##Contents
+* circuit
+* jumperwires
+* materials
