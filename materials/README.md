@@ -3,6 +3,7 @@ List of materials needed to make the robot
 
 ##Jumper Wires
 ![alt text](/materials/wire.jpg =100x100)
+<img src="/materials/wire.jpg" width="100")
 
 ##K2232 N-ch FET x2
 ![alt text](/materials/fet.JPG =100x100)
