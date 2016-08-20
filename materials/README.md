@@ -5,7 +5,7 @@ List of materials needed to make the robot
 <img src="/materials/wire.jpg" width="200">
 
 ##K2232 N-ch FET x2
-<img src="/materials/fet.jpg" width="200">
+<img src="/materials/fet.JPG" width="200">
 
 ##1kΩ Resistor x2
 <img src="/materials/resistor.jpg" width="200">
