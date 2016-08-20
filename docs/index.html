@@ -39,9 +39,9 @@
     <div class="blog-masthead">
       <div class="container">
         <nav class="blog-nav">
-          <a class="blog-nav-item" href="#parts">部品の調達</a>
+          <a class="blog-nav-item" href="index.html">Home</a>
+          <a class="blog-nav-item" href="parts.html">部品の調達</a>
           <a class="blog-nav-item" href="assembly.html">組み立て（基本）</a>
-          <a class="blog-nav-item" href="#">組み立て（応用）</a>
         </nav>
       </div>
     </div>
@@ -54,110 +54,32 @@
 
       <div class="row">
 
-	      <!--<div class="col-sm-8 blog-main">-->
         <div class="imui-form-container blog-main">
           <div class="blog-post">
-            <h2 class="blog-post-title" id="parts">部品の調達</h2>
-            <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
-            <p>部品と購入先を示します。</p>
+            <h2 class="blog-post-title" id="parts">概要</h2>
+	    <p>タミヤの壁伝いねずみに二つの光センサを取り付けて、光に反応するロボットに仕立てます。本ページに従って実装すると、ディジタル回路を変えることで様々な挙動を実現できます。</p>
             <p><img width="500" src="https://github.com/jsupratman13/MouseRobotProject/blob/master/MouseRobot.JPG?raw=true" /></p>
-	    <hr />
-            <h3>必須のもの</h4>
-            <h4>1. タミヤ 壁づたいメカ工作セット（ねずみ） 1個</h4>
-            <p>品番: TAMIYA 70198</p>
-            <p>Amazonや<a href="http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4XVJ" target="_blank">千石電商</a>等で入手可能です。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/mouserobot.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>2. ブレッドボード　BB-801 1個</h4>
-      
-            <p><a href="http://akizukidenshi.com/catalog/g/gP-05294/">秋月電子</a>から入手。サイズは82x53x8mmです。サイズが近ければ他のものでも可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/breadboard.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>3. MPD BH1/3N-C CR1/3N用（LR44 2個用）電池ボックス PC端子 1個</h4>
-      
-            <p>ボタン電池用のコンパクトな電池ボックスです。<a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4CKH">千石電商</a>で購入可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/batteryholder.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>4. アルカリボタン電池 LR44 2個</h4>
-      
-            <p>市販のものでOK。千石等では安価で購入可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/coinbattery.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>5. CdSセル（0.5MΩ） GL5516 2個</h4>
-      
-            <p>他のものは感度が合わない可能性がありますので、指定のものを購入のこと。<a href="http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0HRU">千石電商</a>等で。</p>
-      
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/cds.jpg?raw=true" width="200"/>
-	    
-	    <hr />
-            <h4>6. 10kΩ半固定ボリューム（可変抵抗） 2個</h4>
-      
-            <p>CdSセルの閾値調整用です。<a target="_blank" href="http://akizukidenshi.com/catalog/g/gP-08012/">秋月電子</a>で入手可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/variable.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>7. 1kΩ抵抗 4本</h4>
-      
-            <p>普通のもので十分です。<a target="_blank" href="http://akizukidenshi.com/catalog/g/gR-16102/">秋月電子</a>等で購入のこと。</p>
-      
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/resistor.jpg?raw=true" width="200"/>
-      
-	    <hr />
-            <h4>8. NチャネルパワーMOSFET 2個</h4>
-      
-            <p>指定のもの（2SK2232）を購入のこと。<a href="http://akizukidenshi.com/catalog/g/gI-02414/" target="_blank">秋月電子</a>で入手可能。</p>
-      
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/fet.JPG?raw=true" width="200"/>
 
 	    <hr />
-            <h4>9. ブレッドボード用ジャンパコード（オス-オス） 数十本</h4>
-      
-            <p>配線は全てジャンパコードで行います。<a href="http://akizukidenshi.com/catalog/g/gC-05159/" target="_blank">秋月電子</a>等で入手のこと。短いものも購入しておくと配線をすっきりさせることができます。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/wire.jpg?raw=true" width="200"/>
-
-	    <hr />
-            <h3>応用のための部品</h3>
-	    デジタル回路をカスタマイズするために使います。
-
-     	    <h4>A. 74AC04 DIP Hexインバータ</h4>
-	    <p>信号を反転させるために使います。<a target="_blank" href="http://eleshop.jp/shop/g/gT11314/">共立エレショップ</a>等で入手可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/inverter.jpg?raw=true" width="200"/>
-
-	    <hr />
-     	    <h4>B. 74AC08 DIP クワッド2入力AND</h4>
-	    <p>二つの信号のANDをとるために使います。<a target="_blank" href="http://eleshop.jp/shop/g/gT11315/">共立エレショップ</a>等で入手可能。</p>
-
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/AND.jpg?raw=true" width="200"/>
-
-	    <hr />
-            <h3>工具等</h3>
+	    <h2>本ページの内容</h2>
 	    <ul>
-	      <li>ビニールテープ: 電線の絶縁用</li>
-	      <li>ニッパー: 電線切断用</li>
-	      <li>ワイヤーストリッパー: 電線のビニールを剥くために使用しますが、ハサミやラジオペンチで代用可能。</li>
+		    <li><a href="parts.html">部品の調達</a></li>
+		    <li><a href="assembly.html">組み立て（基本編）</a></li>
 	    </ul>
 
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/tape.jpg?raw=true" width="200"/>
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/nipper.jpg?raw=true" width="200"/>
-	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/wirestripper.jpg?raw=true" width="200"/>
+	    <hr />
+	    <h2>動作例</h2>
+
+	    <iframe width="420" height="315" src="https://www.youtube.com/embed/eWR0JLNSg-g" frameborder="0" allowfullscreen></iframe>
+
+	    <iframe width="420" height="315" src="https://www.youtube.com/embed/5WNjF-kcHEA" frameborder="0" allowfullscreen></iframe>
 
           </div><!-- /.blog-post -->
 
           <nav>
             <ul class="pager">
               <li><a href="#">Previous</a></li>
-              <li><a href="assembly.html">Next</a></li>
+              <li><a href="parts.html">Next</a></li>
             </ul>
           </nav>
 

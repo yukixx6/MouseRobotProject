@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="./favicon.ico">
+
+    <title>壁伝いねずみへの電子回路の搭載</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="./dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="./assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="blog.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="./assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="./assets/js/ie-emulation-modes-warning.js"></script>
+    <style>
+	h4 {font-weight:bold}
+    </style>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="blog-masthead">
+      <div class="container">
+        <nav class="blog-nav">
+          <a class="blog-nav-item" href="index.html">Home</a>
+          <a class="blog-nav-item" href="parts.html">部品の調達</a>
+          <a class="blog-nav-item" href="assembly.html">組み立て（基本）</a>
+        </nav>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="blog-header">
+        <h1 class="blog-title">壁伝いねずみへの電子回路の搭載</h1>
+  <p class="lead blog-description">J. Supratman and <a href="https://lab.ueda.asia">CIT Autonomous Robot lab.</a>, Aug. 20, 2016</p>
+      </div>
+
+      <div class="row">
+
+        <div class="imui-form-container blog-main">
+          <div class="blog-post">
+            <h2 class="blog-post-title" id="parts">部品の調達</h2>
+	    <p>部品と購入先を示します。</p>
+	    <hr />
+            <h3>必須のもの</h4>
+            <h4>1. タミヤ 壁づたいメカ工作セット（ねずみ） 1個</h4>
+            <p>品番: TAMIYA 70198</p>
+            <p>Amazonや<a href="http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4XVJ" target="_blank">千石電商</a>等で入手可能です。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/mouserobot.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>2. ブレッドボード　BB-801 1個</h4>
+      
+            <p><a href="http://akizukidenshi.com/catalog/g/gP-05294/">秋月電子</a>から入手。サイズは82x53x8mmです。サイズが近ければ他のものでも可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/breadboard.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>3. MPD BH1/3N-C CR1/3N用（LR44 2個用）電池ボックス PC端子 1個</h4>
+      
+            <p>ボタン電池用のコンパクトな電池ボックスです。<a href="https://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-4CKH">千石電商</a>で購入可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/batteryholder.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>4. アルカリボタン電池 LR44 2個</h4>
+      
+            <p>市販のものでOK。千石等では安価で購入可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/coinbattery.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>5. CdSセル（0.5MΩ） GL5516 2個</h4>
+      
+            <p>他のものは感度が合わない可能性がありますので、指定のものを購入のこと。<a href="http://www.sengoku.co.jp/mod/sgk_cart/detail.php?code=EEHD-0HRU">千石電商</a>等で。</p>
+      
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/cds.jpg?raw=true" width="200"/>
+	    
+	    <hr />
+            <h4>6. 10kΩ半固定ボリューム（可変抵抗） 2個</h4>
+      
+            <p>CdSセルの閾値調整用です。<a target="_blank" href="http://akizukidenshi.com/catalog/g/gP-08012/">秋月電子</a>で入手可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/variable.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>7. 1kΩ抵抗 4本</h4>
+      
+            <p>普通のもので十分です。<a target="_blank" href="http://akizukidenshi.com/catalog/g/gR-16102/">秋月電子</a>等で購入のこと。</p>
+      
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/resistor.jpg?raw=true" width="200"/>
+      
+	    <hr />
+            <h4>8. NチャネルパワーMOSFET 2個</h4>
+      
+            <p>指定のもの（2SK2232）を購入のこと。<a href="http://akizukidenshi.com/catalog/g/gI-02414/" target="_blank">秋月電子</a>で入手可能。</p>
+      
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/fet.JPG?raw=true" width="200"/>
+
+	    <hr />
+            <h4>9. ブレッドボード用ジャンパコード（オス-オス） 数十本</h4>
+      
+            <p>配線は全てジャンパコードで行います。<a href="http://akizukidenshi.com/catalog/g/gC-05159/" target="_blank">秋月電子</a>等で入手のこと。短いものも購入しておくと配線をすっきりさせることができます。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/wire.jpg?raw=true" width="200"/>
+
+	    <hr />
+            <h3>応用のための部品</h3>
+	    デジタル回路をカスタマイズするために使います。
+
+     	    <h4>A. 74AC04 DIP Hexインバータ</h4>
+	    <p>信号を反転させるために使います。<a target="_blank" href="http://eleshop.jp/shop/g/gT11314/">共立エレショップ</a>等で入手可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/inverter.jpg?raw=true" width="200"/>
+
+	    <hr />
+     	    <h4>B. 74AC08 DIP クワッド2入力AND</h4>
+	    <p>二つの信号のANDをとるために使います。<a target="_blank" href="http://eleshop.jp/shop/g/gT11315/">共立エレショップ</a>等で入手可能。</p>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/AND.jpg?raw=true" width="200"/>
+
+	    <hr />
+            <h3>工具等</h3>
+	    <ul>
+	      <li>ビニールテープ: 電線の絶縁用</li>
+	      <li>ニッパー: 電線切断用</li>
+	      <li>ワイヤーストリッパー: 電線のビニールを剥くために使用しますが、ハサミやラジオペンチで代用可能。</li>
+	    </ul>
+
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/tape.jpg?raw=true" width="200"/>
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/nipper.jpg?raw=true" width="200"/>
+	    <img src="https://github.com/jsupratman13/MouseRobotProject/blob/master/materials/wirestripper.jpg?raw=true" width="200"/>
+
+          </div><!-- /.blog-post -->
+
+          <nav>
+            <ul class="pager">
+              <li><a href="index.html">Previous</a></li>
+              <li><a href="assembly.html">Next</a></li>
+            </ul>
+          </nav>
+
+        </div><!-- /.blog-main -->
+
+        <div class="col-sm-3 col-sm-offset-1 blog-sidebar">
+    <!--
+          <div class="sidebar-module sidebar-module-inset">
+            <h4>About</h4>
+            <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          </div>
+    -->
+          <div class="sidebar-module">
+            <h4>Elsewhere</h4>
+            <ol class="list-unstyled">
+              <li><a href="https://github.com/jsupratman13/MouseRobotProject" target="_blank">資料リポジトリ（GitHub）</a></li>
+              <li><a href="https://lab.ueda.asia" target="_blank">CIT Autonomous Robot lab. (Ueda lab.)</a></li>
+              <li><a href="https://lab.ueda.asia/?page_id=1122" target="_blank">Tamiya Hack Project (in the site of Ueda lab.)</a></li>
+            </ol>
+          </div>
+        </div><!-- /.blog-sidebar -->
+
+      </div><!-- /.row -->
+
+    </div><!-- /.container -->
+
+    <footer class="blog-footer">
+      <div class="textwidget"><a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.ja"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0;" src="https://licensebuttons.net/l/by-nc/4.0/88x31.png" /></a><br />このサイトの内容物は <a rel="license" href="http://creativecommons.org/licenses/by-nc/4.0/deed.ja">クリエイティブ・コモンズ 表示-非営利 4.0 ライセンスの下に提供されています。</a></div>
+      <p>
+        <a href="#">Back to top</a>
+      </p>
+    </footer>
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="./assets/js/vendor/jquery.min.js"><\/script>')</script>
+    <script src="./dist/js/bootstrap.min.js"></script>
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="./assets/js/ie10-viewport-bug-workaround.js"></script>
+  </body>
+</html>
