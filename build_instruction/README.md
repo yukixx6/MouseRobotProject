@@ -7,7 +7,7 @@
 
 <img src="/build_instruction/IMG_0917.JPG" width="300">
 
-3.Make jumperwires for motor and battery wires and place the motor's jumper wires over the gearbox toward the battery
+3.Make jumper wires for motor and battery wires and place the motor's jumper wires over the gearbox toward the battery
 
 <img src="/build_instruction/IMG_0920.JPG" width="300">
 
