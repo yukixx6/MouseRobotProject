@@ -15,7 +15,7 @@
 
 <img src="/build_instruction/IMG_0921.JPG" width="300">
 
-5.Design the circuit
+5.Design the circuit. The circuit below uses an inverter IC with pull down resistors. The robot will move toward the shadow. This is only one example of a circuit and it can customize freely. Example circuit can be found in the circuit folder.
 
 <img src="/build_instruction/IMG_0922.JPG" width="300">
 <img src="/build_instruction/IMG_0923.JPG" width="300">
