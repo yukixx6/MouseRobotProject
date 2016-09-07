@@ -9,6 +9,10 @@ https://youtu.be/eWR0JLNSg-g
 
 https://youtu.be/5WNjF-kcHEA
 
+https://youtu.be/vXqa6qe85uY
+
+https://youtu.be/7hWpDoqzYlg
+
 ##Contents
 * build instructions
 * circuit
