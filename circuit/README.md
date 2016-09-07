@@ -8,12 +8,18 @@ Motor stop when light is detected
 
 https://circuits.io/circuits/2173276-mouserobotproject-circuit-variation-1
 ![alt text](/circuit/pull_up.png)
+![alt text](/circuit/pullup.JPG)
+![alt text](/circuit/pullup2.JPG)
+https://youtu.be/vXqa6qe85uY
 
 ###pull down
 Motor rotate when light is detected
 
 https://circuits.io/circuits/2420264-mouserobotproject-circuit-variation-2
 ![alt text](/circuit/pull_down.png)
+![alt text](/circuit/pulldown.JPG)
+![alt text](/circuit/pulldown.JPG)
+https://youtu.be/7hWpDoqzYlg
 
 ##Circuit with AND IC
 Circuit with AND logic IC.
