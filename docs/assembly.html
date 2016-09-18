@@ -61,6 +61,12 @@
 			<a href="index.html">Home</a>
 			<hr />
 
+            <h2 class="blog-post-title" id="assembly">組み立て（基本編）</h2>
+            <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
+            <p>基本の組み立て方法です。</p>
+            <p><img width="500" src="https://github.com/jsupratman13/MouseRobotProject/blob/master/MouseRobot.JPG?raw=true" /></p>
+
+		<hr />
 		<h2>目次</h2>
 
 			<ul>
@@ -73,16 +79,9 @@
 			<li><a href="#07">タイヤと尻尾の取り付け</a></li>
 			<li><a href="#07">試走</a></li>
 			</ul>
-
-		<hr />
-            <h2 class="blog-post-title" id="assembly">組み立て（基本編）</h2>
-            <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
-            <p>基本の組み立て方法です。</p>
-            <p><img width="500" src="https://github.com/jsupratman13/MouseRobotProject/blob/master/MouseRobot.JPG?raw=true" /></p>
-
 	    <hr />
             <h3 id="01">ベースの組み立て</h3>
-	    <p>マウスキットに付属の説明書を読んで、ベースの部分を組み立てます。</p>
+	    <p>マウスキット付属の説明書を読んで、ベースの部分を組み立てます。</p>
 
             <p><img width="300" src="IMG_0916.JPG?raw=true" /></p>
 
@@ -111,13 +110,19 @@
 
 	    <hr />
             <h3 id="05">配線</h3>
-	    <p>ブレッドボード上に、例えば次の図のように配線を行います。この例は「光を当てると止まる」という配線の例です。</p>
-
-	    <p><a href="https://circuits.io/circuits/2173276-mouserobotproject-circuit-variation-1" target="_blank"><img width="500" src="https://github.com/jsupratman13/MouseRobotProject/blob/master/circuit/pull_up.png?raw=true" /></a></p>
-
-	    <p>配線をしている様子です（違う回路なので注意）。todo: 上の回路の写真を撮る。それから、もう少し配線手順を順序立てて説明したい。</p>
-            <p><img width="300" src="IMG_0922.JPG?raw=true" /></p>
-
+			<p>抵抗とCdsの+-を変えると動作が変わります。好きな方を作りましょう。</p>
+		<hr />
+			<img width="300" src="pull_up.png?raw=true" />
+			<img width="300" src="pull_up.JPG?raw=true" />
+			<img width="300" src="pull_up2.JPG?raw=true" />
+			<a href="https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-1">https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-1</a>
+			<p>光を検出しないとモーターが回る回路です。</p>
+		<hr />
+			<img width="300" src="pull_down.png?raw=true" />
+			<img width="300" src="pull_down.JPG?raw=true" />
+			<img width="300" src="pull_down2.JPG?raw=true" />
+			<a href="https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-2">https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-2</a>
+			<p>光を検出するとモーターが回る回路です。</p>
 		<hr />
             <h3 id="06">可変抵抗の調整</h3>
 	    <p>例えば上の例なら、室内の照明でモータが止まり、手をかざして暗くするとモータが動くように調整します。</p>
