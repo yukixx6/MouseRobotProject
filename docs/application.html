@@ -63,8 +63,7 @@
         <h2 class="blog-post-title" id="assembly">組み立て（応用編）</h2>
             <!--<p class="blog-post-meta">January 1, 2014 by <a href="#">Mark</a></p>-->
             <p>応用編ではICを使用します。</p>
-            <p>ICを使う最大の利点はメモリ機能が作成可能というところです。
-            またICを使用すると様々な動作が作成可能になります。</p>
+            <p>ICを使用すると様々な動作が作成可能になります。</p>
             <hr />
 
         <h2>目次</h2>
@@ -73,19 +72,20 @@
                 <li><a href="#02">NOT回路</a></li>
                 <li><a href="#03">AND回路</a></li>
                 <li><a href="#04">NAND回路</a></li>
+                <!--><li><a href="#05">フリップフロップ</a></li><--!>
             </ul>
         <hr />
 
         <h2 id="01">使用するIC</h2>
             <img src="NAND.JPG?raw=true" width="200"/>
             <p><a href="http://e-words.jp/w/NAND.html" target="_blank">NAND IC</a>を使用します</p>
-            <p>NAND ICはいくつかの論理回路が作成可能です。
-            今回作成するの回路はNAND,AND,NOT回路です。</p>
+            <p>NAND ICは組み合わせによっていくつかの論理回路が作成可能です。
+            今回作成するの回路はNAND,AND,NOT回路,フリップフロップ回路です。</p>
 
         <hr />
         <h2 id="02">NOT回路</h2>
             <p>動作を反転させます。</p>
-            <p>基本編ではCdsセルと抵抗の+-を逆にしましたが、応用編ではICを使って反転させます。</p>
+            <p>基本編ではCdsセルと抵抗の+-を逆にしましたが、ICを使っても反転可能です。</p>
             <img width="300" src="NAND_NOT.png?raw=true" />
             <img width="300" src="NAND_NOT.jpg?raw=true" />
             <img width="300" src="NAND_NOT 2.jpg?raw=true" />
@@ -94,7 +94,7 @@
 
         <hr />
         <h2 id="03">AND回路</h2>
-            <p>2つのセンサーが同時に反応するとモーターが回ります。</p>
+            <p>2つのセンサーが同時に反応した時にモーターが回ります。</p>
             <img width="300" src="NAND_AND.png?raw=true" />
             <img width="300" src="NAND_AND.jpg?raw=true" />
             <img width="300" src="NAND_AND 2.jpg?raw=true" />
@@ -109,6 +109,29 @@
             <img width="300" src="NAND_NAND 2.jpg?raw=true" />
             <p><iframe width="420" height="315" src="https://www.youtube.com/embed/t4DAuolzJ3I" frameborder="0" allowfullscreen></iframe></p>
             <a href="https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-5">https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-5</a>
+
+        <hr />
+        <style>
+        まだ未公開
+        <h2 id=05>フリップフロップ</h2>
+            <p>動作を保持します。
+            但しNAND IC1つだけで作る回路は不完全です。</p>
+            <p>下の表に書いてあるランダムは前進か静止をします。</p>
+
+
+            <table class="table table-striped" border=1>
+                 <tr><th>左センサ</th><th>右センサ</th><th>状態</th></tr>
+                 <tr><td>明</td><td>明</td><td>保持</td></tr>
+                 <tr><td>明</td><td>暗</td><td>右旋回</td></tr>
+                 <tr><td>暗</td><td>明</td><td>左旋回</td></tr>
+                 <tr><td>暗</td><td>暗</td><td>ランダム</td></tr>
+            </table>
+
+            <img width="300" src="NAND_NAND.png?raw=true" />
+            <img width="300" src="NAND_NAND.jpg?raw=true" />
+            <p><iframe width="420" height="315" src="https://www.youtube.com/embed/RDlBuEZoQ1Q" frameborder="0" allowfullscreen></iframe></p>
+            <a href="https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-5">https://circuits.io/circuits/2714385-mouserobotproject-circuit-variation-5</a>
+        </style>
 
           </div><!-- /.blog-post -->
 
@@ -128,7 +151,7 @@
           </div>
     -->
           <div class="sidebar-module">
-            <h4>Elsewhere</h4>
+            <bbbbh4>Elsewhere</h4>
             <ol class="list-unstyled">
               <li><a href="https://github.com/jsupratman13/MouseRobotProject" target="_blank">資料リポジトリ（GitHub）</a></li>
               <li><a href="https://lab.ueda.asia" target="_blank">CIT Autonomous Robot lab. (Ueda lab.)</a></li>
