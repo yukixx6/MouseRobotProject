@@ -4,7 +4,7 @@ tutorial of how to make light tracking robot
 
 * project page: https://jsupratman13.github.io/MouseRobotProject/index.html
 
-##Example
+## Example
 https://youtu.be/eWR0JLNSg-g
 
 https://youtu.be/5WNjF-kcHEA
@@ -13,7 +13,7 @@ https://youtu.be/vXqa6qe85uY
 
 https://youtu.be/7hWpDoqzYlg
 
-##Contents
+## Contents
 * build instructions
 * circuit
 * jumperwires
