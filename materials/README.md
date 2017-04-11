@@ -1,58 +1,58 @@
-﻿#Materials
+﻿# Materials
 List of materials needed to make the robot
 
-##Jumper Wires
+## Jumper Wires
 <img src="/materials/wire.jpg" width="200">
 
-##K2232 N-ch FET x2
+## K2232 N-ch FET x2
 <img src="/materials/fet.JPG" width="200">
 
-##1kΩ Resistor x2
+## 1kΩ Resistor x2
 <img src="/materials/resistor.jpg" width="200">
 
-##10kΩ Variable Resistor x4
+## 10kΩ Variable Resistor x4
 <img src="/materials/variable.jpg" width="200">
 
-##Cds cell 5mm 0.5MΩ x2
+## Cds cell 5mm 0.5MΩ x2
 <img src="/materials/cds.jpg" width="200">
 
-##Bread board
+## Bread board
 <img src="/materials/breadboard.jpg" width="200">
 
-##LR44 1.5V Coin Battery x2
+## LR44 1.5V Coin Battery x2
 Does not necessary have to be LR44 but something that produce 3V.
 
 <img src="/materials/coinbattery.jpg" width="200">
 
-##MPD BH1/3N-C CR1 Battery Box
+## MPD BH1/3N-C CR1 Battery Box
 Battery box for LR44 coin battery. Can vary depending on the coin battery.
 
 <img src="/materials/batteryholder.jpg" width="200">
 
-##Tamiya's Mouse Robot
+## Tamiya's Mouse Robot
 <img src="/materials/mouserobot.jpg" width="200">
 
-#Optional Material
+# Optional Material
 Not necessary but recommended to have to make different effects on the robot
 
-##Inverter IC
+## Inverter IC
 <img src="/materials/inverter.jpg" width="200">
 
-##AND IC
+## AND IC
 <img src="/materials/AND.jpg" width="200">
 
-#Tools
+# Tools
 Tools needed to modify TAMIYA Mouse Robot
-##Nipper
+## Nipper
 <img src="/materials/nipper.jpg" width="200">
 
-##Wire Stripper
+## Wire Stripper
 <img src="/materials/wirestripper.jpg" width="200">
 
-##Insulator Tape
+## Insulator Tape
 <img src="/materials/tape.jpg" width="200">
 
-#Parts List in Japanese
+# Parts List in Japanese
 
 | 基本部品                                                 |                 |      |       |      |          |                   |      |
 |----------------------------------------------------------|-----------------|------|-------|------|----------|-------------------|------|
